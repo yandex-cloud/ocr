@@ -16,8 +16,8 @@
 2. `python ocr_google.py  --in_folder rus_ocr_in_the_wild_dataset --out_folder rus_ocr_in_the_wild_dataset_g --key <APIKEY>`
 
 
-Для воспроизведения результатов Yandex Vision:
-1. Получить ключ (APIKEY) для Yandex Vision (https://console.cloud.yandex.ru/)
+Для воспроизведения результатов Yandex Cloud Vision API:
+1. Получить ключ (APIKEY) для Yandex Cloud Vision API (https://console.cloud.yandex.ru/)
 2. `python ocr_yandex.py  --in_folder rus_ocr_in_the_wild_dataset --out_folder rus_ocr_in_the_wild_dataset_y --key <APIKEY>`
 
 
