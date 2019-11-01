@@ -8,26 +8,25 @@
 Для воспроизведения результатов ABBYY Cloud OCR SDK:
 1. Получить Application ID (ID) и пароль (PSW) для ABBYY Cloud OCR SDK (https://cloud.ocrsdk.com)
 2. Скачать process.py и AbbyyOnlineSdk.py из официального примера https://github.com/abbyysdk/ocrsdk.com/tree/master/Python
-3. 
-python ocr_abbyy.py  --in_folder rus_ocr_in_the_wild_dataset --out_folder rus_ocr_in_the_wild_dataset_a --psw PSW --id ID
+3. `python ocr_abbyy.py  --in_folder rus_ocr_in_the_wild_dataset --out_folder rus_ocr_in_the_wild_dataset_a --psw PSW --id ID`
 
 
 Для воспроизведения результатов Google Cloud Vision API:
 1. Получить ключ (APIKEY) для Google Cloud Vision API (https://console.cloud.google.com)
-2. 
-python ocr_google.py  --in_folder rus_ocr_in_the_wild_dataset --out_folder rus_ocr_in_the_wild_dataset_g --key <APIKEY>
+2. `python ocr_google.py  --in_folder rus_ocr_in_the_wild_dataset --out_folder rus_ocr_in_the_wild_dataset_g --key <APIKEY>`
 
 
 Для воспроизведения результатов Yandex Vision:
 1. Получить ключ (APIKEY) для Yandex Vision (https://console.cloud.google.com)
-2. 
-python ocr_yandex.py  --in_folder rus_ocr_in_the_wild_dataset --out_folder rus_ocr_in_the_wild_dataset_y --key <APIKEY>
+2. `python ocr_yandex.py  --in_folder rus_ocr_in_the_wild_dataset --out_folder rus_ocr_in_the_wild_dataset_y --key <APIKEY>`
 
 
 Для подсчета метрики по полученным результатам:
+```
 python metrics.py rus_ocr_in_the_wild_dataset rus_ocr_in_the_wild_dataset_a
 python metrics.py rus_ocr_in_the_wild_dataset rus_ocr_in_the_wild_dataset_g
 python metrics.py rus_ocr_in_the_wild_dataset rus_ocr_in_the_wild_dataset_y
+```
 
 
 
