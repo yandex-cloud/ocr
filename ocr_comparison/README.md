@@ -7,7 +7,7 @@
 
 Для воспроизведения результатов ABBYY Cloud OCR SDK:
 1. Получить Application ID (ID) и пароль (PSW) для ABBYY Cloud OCR SDK (https://cloud.ocrsdk.com)
-2. Скачать process.py и AbbyyOnlineSdk.py из официального примера https://github.com/abbyysdk/ocrsdk.com/tree/master/Python
+2. Скачать `process.py` и `AbbyyOnlineSdk.py` из официального примера https://github.com/abbyysdk/ocrsdk.com/tree/master/Python
 3. `python ocr_abbyy.py  --in_folder rus_ocr_in_the_wild_dataset --out_folder rus_ocr_in_the_wild_dataset_a --psw PSW --id ID`
 
 
@@ -17,7 +17,7 @@
 
 
 Для воспроизведения результатов Yandex Vision:
-1. Получить ключ (APIKEY) для Yandex Vision (https://console.cloud.google.com)
+1. Получить ключ (APIKEY) для Yandex Vision (https://console.cloud.yandex.ru/)
 2. `python ocr_yandex.py  --in_folder rus_ocr_in_the_wild_dataset --out_folder rus_ocr_in_the_wild_dataset_y --key <APIKEY>`
 
 
