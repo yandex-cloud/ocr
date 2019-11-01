@@ -1,0 +1,5 @@
+requests==2.20.0
+lxml==4.4.1
+Polygon2==2.0.8
+numpy==1.16.4
+
